@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp"
+                android:id="@+id/mframe">
+    <LinearLayout
+            android:id="@+id/top"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Level: 0"
+                android:id="@+id/level"
+                android:layout_weight="1"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:background="#528B8B"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Lives: 3"
+                android:id="@+id/life"
+                android:layout_weight="1"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:background="#528B8B"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Score: 0"
+                android:id="@+id/score"
+                android:layout_weight="1"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:background="#528B8B"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+            android:id="@+id/background"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+
+    >
+        />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true">
+        <Button
+                android:id="@+id/startSnakeGame"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Left"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+        />
+        <Button
+                android:id="@+id/rightbtn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Right"
+                android:layout_weight="1"
+                android:background="@drawable/button">
+
+        </Button>
+    </LinearLayout>
+
+
+</RelativeLayout>
